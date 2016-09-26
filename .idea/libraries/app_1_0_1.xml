@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="app-1.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/cn.jianke.lbaizxfcycleview/app/1.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/cn.jianke.lbaizxfcycleview/app/1.0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.jianke.lbaizxfcycleview/app/1.0.1/4b6f1ee52f2324a6fcda55e561a8332f3544957f/app-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
