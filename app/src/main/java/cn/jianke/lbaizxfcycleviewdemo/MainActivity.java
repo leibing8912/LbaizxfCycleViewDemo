@@ -30,25 +30,20 @@ public class MainActivity extends AppCompatActivity {
         mData = new ArrayList<>();
         // 添加数据源
         CycleModel cycleModel = new CycleModel("1",
-                "http://g.hiphotos.baidu.com/imgad/pic/item/f603918fa0ec08fa9f0b7dd85eee3d6d55fbda42.jpg");
+                "http://img.mbp.jianke.com/46dcbfe339a9405c247fdfb25c291733");
         mData.add(cycleModel);
         cycleModel = new CycleModel("2",
-                "http://g.hiphotos.baidu.com/imgad/pic/item/4a36acaf2edda3cc6a22d65f06e93901203f928e.jpg");
-        mData.add(cycleModel);
-        cycleModel = new CycleModel("3",
-                "http://g.hiphotos.baidu.com/imgad/pic/item/023b5bb5c9ea15cec0e68e76b1003af33a87b241.jpg");
-        mData.add(cycleModel);
-        cycleModel = new CycleModel("4",
-                "http://f.hiphotos.baidu.com/imgad/pic/item/5366d0160924ab18ead18f4832fae6cd7a890b8d.jpg");
+                "http://img.mbp.jianke.com/13f13dfb29081b58381af3dbf9cb1b9b");
         mData.add(cycleModel);
         // 设置显示方式（居中,内边距离下24dp）
         lbaizxfCvw.setAlignParentCenter(24);
         // 设置为有轮播功能
         lbaizxfCvw.setIsHasWheel(true);
         // 设置数据源并设置监听
-        lbaizxfCvw.setData(mData, new CycleView.CycleViewListener() {
+        lbaizxfCvw.setData(mData, MainActivity.this,new CycleView.CycleViewListener() {
             @Override
             public void onItemClick(int position) {
+                position = position + 1;
                 Toast.makeText(MainActivity.this, "这是第" + position + "个图",
                         Toast.LENGTH_SHORT).show();
             }
