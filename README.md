@@ -1,6 +1,9 @@
 # LbaizxfCycleView
 一个基于Handler + ViewPaper实现的图片轮播器,能自定义指示器,能自定义是否轮播、是否循环等.
 
+### 效果图
+![LbaizxfCycleView.gif](http://upload-images.jianshu.io/upload_images/2412932-6cbeabe861d7582e.gif?imageMogr2/auto-orient/strip)
+
 ### 特性
 * 支持指示器显示方式（靠左、居中、靠右）自定义
 * 支持指示器图标自定义
